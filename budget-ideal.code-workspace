@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "json.format.enable": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "eslint.workingDirectories": ["./"],
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": false
+    },
+    "workbench.editor.wrapTabs": true,
+    "files.autoSave": "onFocusChange",
+    "prettier.configPath": "./.prettierrc.json",
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[xml]": {
+      "editor.defaultFormatter": "redhat.vscode-xml"
+    }
+  }
+}
